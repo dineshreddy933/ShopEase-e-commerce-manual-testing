@@ -11,7 +11,7 @@
 | Preconditions | When a user enters an expired credit card and clicks 'Place Order', the error message displayed is 'Payment failed. Please try again.' This is too generic and does not inform the user WHY the payment failed.|
 | Steps to Reproduce | 1.	Log in with valid credentials 2.	Add any in-stock item to cart 3.	Proceed to checkout — complete shipping step 4.	On Payment page, enter: Card No: 4000 0000 0000 0069 | Exp: 01/22 | CVV: 999 5.	Click 'Place Order' 6.	Observe the error message displayed on screen|
 | Actual Result | Error shown: 'Payment failed. Please try again.' — no mention of card expiry|
-| Expected Result |Error should read: 'Your card has expired. Please check the expiry date or use a different card.' — specific and actionable|
+| Expected Result |Error should read: 'Your card has expired. Please check the expiry date or use a different card. ' — specific and actionable|
 | Severity | Medium |
 | Priority | High |
 | Evidence | screenshot|
